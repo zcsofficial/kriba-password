@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+#strength-bar-fill {
+    height: 10px;
+}
+
+#feedback {
+    font-weight: bold;
+}
+
+#requirements li {
+    margin-bottom: 5px;
+}
+
+.text-purple {
+    color: #9c27b0;
+}
+
+#requirements li.valid {
+    color: green;
+}
+
+#requirements li.invalid {
+    color: red;
+}
+
+#requirements {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+
+    #strength-icon {
+        font-size: 30px;
+    }
+}
